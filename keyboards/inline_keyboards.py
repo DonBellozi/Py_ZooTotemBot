@@ -44,7 +44,7 @@ def result_keyboard(bot_username: str) -> InlineKeyboardMarkup:
             [
                 InlineKeyboardButton(
                     text="📢 Поделиться результатом",
-                    url=f"https://t.me/share/url?url=https://t.me/{bot_username}&text={share_text}",
+                    url=f"https://t.me/share/url?url={share_text}",
                 )
             ],
             [InlineKeyboardButton(text="✍️ Оставить отзыв", callback_data="leave_feedback")],
