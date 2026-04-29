@@ -8,6 +8,21 @@ STORAGE_DIR = BASE_DIR / "storage"
 DB_PATH = STORAGE_DIR / "bot.sqlite3"
 
 
+def get_last_feedback(limit: int = 10) -> list[tuple]:
+    with sqlite3.connect(DB_PATH) as connection:
+        cursor = connection.cursor()
+        cursor.execute(
+            """
+            SELECT full_name, username, feedback_text, created_at
+            FROM feedback
+            ORDER BY id DESC
+            LIMIT ?
+            """,
+            (limit,),
+        )
+        return cursor.fetchall()
+
+
 def init_db() -> None:
     STORAGE_DIR.mkdir(exist_ok=True)
 

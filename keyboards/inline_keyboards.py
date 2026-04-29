@@ -5,7 +5,14 @@ def main_menu_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         inline_keyboard=[
             [InlineKeyboardButton(text="🐾 Начать викторину", callback_data="start_quiz")],
-            [InlineKeyboardButton(text="🆘 Помощь", callback_data="help")],
+            [InlineKeyboardButton(text="🐾 Факт о животных", callback_data="animal_fact")],
+            [InlineKeyboardButton(text="❓ Помощь", callback_data="help")],
+            [
+                InlineKeyboardButton(
+                    text="ℹ️ Узнать про опеку",
+                    url="https://moscowzoo.ru/about/guardianship",
+                )
+            ],
         ]
     )
 
