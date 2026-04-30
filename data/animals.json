@@ -2,7 +2,7 @@
   {
     "id": "manul",
     "name": "Манул",
-    "image": "images/manul.jpeg",
+    "image": "images/manul.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/manul"
     ],
@@ -12,7 +12,7 @@
   {
     "id": "meerkat",
     "name": "Сурикат",
-    "image": "images/meerkat.jpeg",
+    "image": "images/meerkat.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/surikat"
     ],
@@ -22,7 +22,7 @@
   {
     "id": "raccoon",
     "name": "Енот-полоскун",
-    "image": "images/raccoon.jpeg",
+    "image": "images/raccoon.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/enot_poloskun"
     ],
@@ -32,7 +32,7 @@
   {
     "id": "flamingo",
     "name": "Фламинго",
-    "image": "images/flamingo.jpeg",
+    "image": "images/flamingo.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/krasnyy_flamingo",
       "https://moscowzoo.ru/animals/kinds/rozovyy_flamingo"
@@ -43,7 +43,7 @@
   {
     "id": "elephant",
     "name": "Азиатский слон",
-    "image": "images/elephant.jpeg",
+    "image": "images/elephant.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/aziatskiy_slon"
     ],
@@ -53,7 +53,7 @@
   {
     "id": "alpaca",
     "name": "Альпака",
-    "image": "images/alpaca.jpeg",
+    "image": "images/alpaca.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/alpaka"
     ],
@@ -63,7 +63,7 @@
   {
     "id": "sea_lion",
     "name": "Сивуч",
-    "image": "images/sea_lion.jpeg",
+    "image": "images/sea_lion.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/sivuch"
     ],
@@ -73,7 +73,7 @@
   {
     "id": "sloth",
     "name": "Двупалый ленивец",
-    "image": "images/sloth.jpeg",
+    "image": "images/sloth.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/dvupalyy_lenivec"
     ],
@@ -83,7 +83,7 @@
   {
     "id": "orangutan",
     "name": "Орангутан",
-    "image": "images/orangutan.jpeg",
+    "image": "images/orangutan.gif",
     "links": [
       "https://moscowzoo.ru/animals/kinds/kalimantanskiy_borneyskiy_orangutan",
       "https://moscowzoo.ru/animals/kinds/sumatranskiy_orangutan"

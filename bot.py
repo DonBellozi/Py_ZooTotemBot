@@ -171,8 +171,8 @@ async def send_result(message: Message, user_id: int) -> None:
     )
 
     if image_path.exists():
-        await message.answer_photo(
-            photo=FSInputFile(image_path),
+        await message.answer_animation(
+            animation=FSInputFile(image_path),
             caption=caption,
             reply_markup=result_keyboard(config.bot_username),
         )
