@@ -52,15 +52,15 @@ Py_ZooTotemBot/
 │   └── questions.json
 ├── images/
 │   ├── logo.jpeg
-│   ├── manul.jpeg
-│   ├── meerkat.jpeg
-│   ├── raccoon.jpeg
-│   ├── flamingo.jpeg
-│   ├── elephant.jpeg
-│   ├── alpaca.jpeg
-│   ├── sea_lion.jpeg
-│   ├── sloth.jpeg
-│   └── orangutan.jpeg
+│   ├── manul.gif
+│   ├── meerkat.gif
+│   ├── raccoon.gif
+│   ├── flamingo.gif
+│   ├── elephant.gif
+│   ├── alpaca.gif
+│   ├── sea_lion.gif
+│   ├── sloth.gif
+│   └── orangutan.gif
 ├── keyboards/
 │   └── inline_keyboards.py
 ├── services/
@@ -127,15 +127,15 @@ BOT_USERNAME=username_бота_без_@
 
 ```text
 logo.jpeg
-manul.jpeg
-meerkat.jpeg
-raccoon.jpeg
-flamingo.jpeg
-elephant.jpeg
-alpaca.jpeg
-sea_lion.jpeg
-sloth.jpeg
-orangutan.jpeg
+manul.gif
+meerkat.gif
+raccoon.gif
+flamingo.gif
+elephant.gif
+alpaca.gif
+sea_lion.gif
+sloth.gif
+orangutan.gif
 ```
 
 8. Запустить бота:
